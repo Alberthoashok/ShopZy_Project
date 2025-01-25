@@ -1,0 +1,61 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.app-title {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-icon,
+.profile-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.language-select {
+  padding: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #0056b3;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
