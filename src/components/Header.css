@@ -1,0 +1,72 @@
+.header {
+  width: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+}
+
+.app-title {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-icon,
+.profile-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.language-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #e9ecef;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out, font-weight 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  color: #0056b3;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 2px;
+}
+
+h1 {
+  color: black;
+}
